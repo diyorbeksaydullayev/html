@@ -1,0 +1,26 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: sans-serif;
+}
+.text{
+color: red;
+text-align: center;
+font-size: 80px;
+transition: 1s;
+}
+.text:hover{
+    text-shadow: 10px 0px 15px red;
+}
+.box{
+width: 300px;
+height: 300px;
+margin: 30px auto;
+box-shadow: 5px 5px 10px #0002;
+border-radius: 15px;
+transition: .5s;
+}
+.box:hover{
+    box-shadow: 5px 5px 20px #0003;
+}

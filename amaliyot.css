@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    }
+    .banner__imege{
+    width: 100%;
+    height: 900px;
+    background: url(./about-1.jpg) no-repeat center/cover;
+    }
+    .banner{
+    width: 100%;
+    height: 100%;
+    background: #050520d3;
+    
+    padding: 0 15%;
+    }
+    .navbar{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    }
+    .logo{
+    color: #fea116;
+    font-family: cursive;
+    font-size: 32px;
+    }
+    .collection{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    }
+    .item{
+    color: white;
+    list-style: none;
+    }
+    .item:hover{
+        color: #fea116;
+    }
+    .btn,
+    .item button{
+    padding: 8px 20px;
+    background: #fea116;
+    color: white;
+    border: none;
+    }
+    .banner__content{
+    display: flex;
+    gap: 50px;
+    margin-top: 80px;
+    }
+    .banner__right,
+    .banner__left{
+    width: 50%;
+    height: 500px;
+    }
+    .banner__left h1{
+    color: white;
+    padding-top: 80px;
+    font-size: 55px;
+    font-family: cursive;
+    }
+    .banner__left p{
+    color: white;
+    padding: 20px 0px;
+    }
+    .banner__right img{
+        width: 100%;
+        animation: aylan 60s linear infinite ;
+    }
+    @keyframes aylan{
+        to{
+            transform: rotate(360deg);
+        }
+    }
+    .wrapper{
+    display: flex;
+    gap: 25px;
+    padding: 60px 15%;
+    justify-content: center;
+    }
+    .box{
+    width: 300px;
+    min-height: 260px;
+    box-shadow: 0px 0px 20px #0002;
+    padding: 26px 16px;
+    }
+    .box h1{
+    color: #fea116;
+        margin-bottom: 10px;
+    }
+    .box p{
+    margin-top: 10px;
+    color: gray;
+    }
+    .cards{ 
+    width: 100%;    
+        display: flex;
+        padding: 50px 10%;
+        justify-content: center;
+        gap: 30px;
+
+    }
+    .card{
+        width: 250px;
+        height: 300px;
+        box-shadow: 0px 0px 20px #0003;
+        padding: 15px;
+    }
+    .card img{
+        width: 200px;
+        height: 200px;
+        margin: auto;
+        border-radius: 50%;
+        padding-top: 5px;
+    }
+    .part{
+        width: 100%;
+        height: 550px;
+        display: flex;
+    }
+    .part__left {
+        width: 50%;
+        height: 100%;
+       
+    }
+    .part__left img{
+        width: 100%;
+        height: 100%;
+
+    }
+    .part__right{
+        width: 50%;
+        height: 100% ;
+        background-color: #002;
+        padding: 40px;
+    }
+    .part__right h3{
+        color: #fea116;
+        font-family: cursive;
+        margin: 15px 0px;
+    }
+    .part__right h2{
+         
+        color: white;
+        font-size: 40px;
+        margin-bottom: 15px;
+    }
+    .part__right input{
+        width: 45%;
+        height: 50px;
+        padding-left: 5px;
+        margin-bottom: 20px;
+        border: none;
+    }
+    .part__right select{
+        width: 45%;
+        height: 50px;
+    }
+    .part__right button{
+        width: 90%;
+        height: 50px;
+        background-color: #fea116 ;
+        color: white;
+        border: none;
+        margin-top: 20px;
+    }
+    .id{
+        padding: 15px 0px 0px 10px;
+    }
+    .our{
+color: #fea116;
+font-family: cursive;
+margin: 50px 0px 20px 0px;
+
+    }
+    .con{
+        width: 100%;
+    }
+    .con h2{
+        color: #fea116;
+        text-align: center;
+        font-family: cursive;
+        margin: 30px 0px 15px 0px;
+    }
+    .con h1{
+        text-align: center;
+        font-size: 50px;
+        padding: 30px 30px ;
+    }
+    .card1{
+        width: 100%;
+        height: 400px;
+        
+        display: flex;
+        gap: 220px;
+        padding-top: 30px ;
+    }
+    
